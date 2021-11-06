@@ -1,0 +1,35 @@
+name: UpdateChampIDs
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron:  '37 13 1 * *'
+
+jobs:
+  wget:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Pull Repo
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git config pull.rebase false
+        # git reset --hard
+        git pull origin main
+    - name: wget
+      uses: wei/wget@v1
+      with:
+        args: -O README.md http://lolcounter.fragxz.de/champIdsAsJson
+    - name: Commit files
+      run: |
+        git add README.md
+        git commit -m "Updated README"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: $
+        branch: main
