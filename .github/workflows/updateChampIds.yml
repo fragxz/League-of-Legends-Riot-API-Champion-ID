@@ -2,9 +2,9 @@ name: UpdateChampIDs
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron:  '37 13 1 * *'
 
@@ -19,7 +19,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config pull.rebase false
         # git reset --hard
-        git pull origin main
+        git pull origin master
     - name: wget
       uses: wei/wget@v1
       with:
@@ -32,4 +32,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: $
-        branch: main
+        branch: master
