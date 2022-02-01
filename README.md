@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 11.24.1
+Last update: Patch 12.2.1
 
 
 ```
@@ -131,6 +131,7 @@ Last update: Patch 11.24.1
     "201": "Braum",
     "202": "Jhin",
     "203": "Kindred",
+    "221": "Zeri",
     "222": "Jinx",
     "223": "TahmKench",
     "234": "Viego",
