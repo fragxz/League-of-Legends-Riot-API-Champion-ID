@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 12.10.1
+Last update: Patch 12.12.1
 
 
 ```
@@ -128,6 +128,7 @@ Last update: Patch 12.10.1
     "163": "Taliyah",
     "164": "Camille",
     "166": "Akshan",
+    "200": "Belveth",
     "201": "Braum",
     "202": "Jhin",
     "203": "Kindred",
