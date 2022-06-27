@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron:  '37 13 1 * *'
+    - cron:  '0 5 */16 * *'
 
 jobs:
   wget:
