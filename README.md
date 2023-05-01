@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 13.6.1
+Last update: Patch 13.8.1
 
 
 ```
