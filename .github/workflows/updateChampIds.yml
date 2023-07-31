@@ -23,7 +23,7 @@ jobs:
     - name: wget
       uses: wei/wget@v1
       with:
-        args: -O README.md http://lolcounter.fragxz.de/champIdsAsJson
+        args: -O README.md ${{env.LEAGUE_CHAMPS_API}}
     - name: Commit files
       run: |
         git add README.md
