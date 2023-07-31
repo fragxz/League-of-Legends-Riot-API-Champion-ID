@@ -23,7 +23,7 @@ jobs:
     - name: wget
       uses: wei/wget@v1
       with:
-        args: -O README.md ${{LEAGUE_CHAMPS_API}}
+        args: -O README.md ${{ vars.LEAGUE_CHAMPS_API }}
     - name: Commit files
       run: |
         git add README.md
