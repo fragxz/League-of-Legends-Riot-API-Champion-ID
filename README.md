@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 13.17.1
+Last update: Patch 13.19.1
 
 
 ```
@@ -135,6 +135,7 @@ Last update: Patch 13.17.1
     "221": "Zeri",
     "222": "Jinx",
     "223": "TahmKench",
+    "233": "Briar",
     "234": "Viego",
     "235": "Senna",
     "236": "Lucian",
