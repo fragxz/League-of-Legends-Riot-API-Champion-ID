@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 13.23.1
+Last update: Patch 13.24.1
 
 
 ```
@@ -172,5 +172,6 @@ Last update: Patch 13.23.1
     "895": "Nilah",
     "897": "KSante",
     "902": "Milio",
+    "910": "Hwei",
     "950": "Naafiri"
 }
