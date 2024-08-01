@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 14.13.1
+Last update: Patch 14.15.1
 
 
 ```
@@ -169,6 +169,7 @@ Last update: Patch 14.13.1
     "876": "Lillia",
     "887": "Gwen",
     "888": "Renata",
+    "893": "Aurora",
     "895": "Nilah",
     "897": "KSante",
     "901": "Smolder",
