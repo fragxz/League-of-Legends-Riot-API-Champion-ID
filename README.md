@@ -3,7 +3,7 @@
 List of Champs and their ID according to the Riot API
 <br>
 <br>
-Last update: Patch 14.24.1
+Last update: Patch 15.2.1
 
 
 ```
@@ -166,6 +166,7 @@ Last update: Patch 14.24.1
     "711": "Vex",
     "777": "Yone",
     "799": "Ambessa",
+    "800": "Mel",
     "875": "Sett",
     "876": "Lillia",
     "887": "Gwen",
